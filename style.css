@@ -1,5 +1,5 @@
 body{
-  text-align:center;
+    text-align:center;
   font-family:cursive,sans-serif;
   background-color:#ffffff;
   color:#918989;
@@ -46,23 +46,25 @@ body{
 }
 
 h1{
-  color:#fcfcfc;
-  font-size:60px;
-  font-weight:300;
-  font-family: Shopping Font Script;
+  color:#918989;
+  font-family: "Tangerine", cursive;
+  font-size: 100px;
+  font-style: normal;
 }
 
 h2{
-  color:#1f1e1e;
-  font-size:40px;
-  font-family: Shopping Font Script;
+  color:#918989;
+  font-family: "Tangerine", cursive;
+  font-size: 60px;
+  font-style: normal;
 }
 
 h3{
   font-size: 4em;
   font-style: italic;
-  font-family: Shopping Font Script;
-  font-weight: normal;
+  font-family: "Tangerine", cursive;
+  font-size: 60px;
+  font-style: normal;
 }
 
 .titulo-cinza{
@@ -91,18 +93,38 @@ p{
   line-height:1,5;
 }
 
+.lista-presente1 {
+  width:200px !important;
+  border-radius:2%;
+}
+
+.lista-presente2 {
+  width:250px !important;
+  border-radius:2%;
+}
+
+.lista-presente3 {
+  width:300px !important;
+  border-radius:2%;
+}
+
+.lista-presente4 {
+  width:300px !important;
+  border-radius:2%;
+}
+
 #lista-presentes img, #boas-vindas img{
-  width:100%;
+  width:40%;
   border-radius:2%;
 }
 
 .QRcodePix {
-  width: 5em!important;
+  width: 150px !important;
 }
 
 a{
   text-decoration: none;
-  color: #918989;
+  color: #ff914d;
   font-weight: 700;
 }
 
@@ -112,7 +134,7 @@ a{
 }
 
 .principal a{
-  color: #0077cc;
+  color: #fa6000;
   text-decoration: none;
   font-weight: normal;
 }
