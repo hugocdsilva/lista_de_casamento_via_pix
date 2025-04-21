@@ -48,14 +48,14 @@ body{
 h1{
   color:#918989;
   font-family: "Tangerine", cursive;
-  font-size: 100px;
+  font-size: 350%;
   font-style: normal;
 }
 
 h2{
   color:#918989;
   font-family: "Tangerine", cursive;
-  font-size: 60px;
+  font-size: 300%;
   font-style: normal;
 }
 
@@ -63,7 +63,7 @@ h3{
   font-size: 4em;
   font-style: italic;
   font-family: "Tangerine", cursive;
-  font-size: 60px;
+  font-size: 30px;
   font-style: normal;
 }
 
@@ -85,37 +85,39 @@ section{
 }
 
 section section {
-  width:100%;
+  width:500%;
 }
 
 p{
-  font-size:20px;
+  font-size: 100%;
   line-height:1,5;
 }
 
 .lista-presente1 {
-  width:200px !important;
+  width:190px !important;
   border-radius:2%;
 }
 
 .lista-presente2 {
-  width:250px !important;
+  width:225px !important;
   border-radius:2%;
 }
 
 .lista-presente3 {
-  width:300px !important;
+  width:250px !important;
   border-radius:2%;
 }
 
 .lista-presente4 {
-  width:300px !important;
+  width: 200px !important;
   border-radius:2%;
 }
 
 #lista-presentes img, #boas-vindas img{
-  width:40%;
+  width:245px;
   border-radius:2%;
+  justify-content: center; /* horizontal */
+  align-items: center;
 }
 
 .QRcodePix {
@@ -129,7 +131,7 @@ a{
 }
 
 .principal{
-  height: 40px;
+  height: 10px;
   margin: 0 auto;
 }
 
@@ -143,6 +145,10 @@ a{
   display: inline-block;
   line-height: 2.5;
   margin: 0 2.5em;
+}
+
+.traco{
+  font-size: 15px !important;
 }
 
 button{
