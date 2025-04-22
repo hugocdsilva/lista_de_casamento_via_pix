@@ -63,7 +63,7 @@ h3{
   font-size: 4em;
   font-style: italic;
   font-family: "Tangerine", cursive;
-  font-size: 30px;
+  font-size: 60px;
   font-style: normal;
 }
 
@@ -94,34 +94,34 @@ p{
 }
 
 .lista-presente1 {
-  width:190px !important;
+  width:240px !important;
   border-radius:2%;
 }
 
 .lista-presente2 {
-  width:225px !important;
+  width:275px !important;
   border-radius:2%;
 }
 
 .lista-presente3 {
-  width:250px !important;
+  width:300px !important;
   border-radius:2%;
 }
 
 .lista-presente4 {
-  width: 200px !important;
+  width: 250px !important;
   border-radius:2%;
 }
 
 #lista-presentes img, #boas-vindas img{
-  width:245px;
+  width:290px;
   border-radius:2%;
   justify-content: center; /* horizontal */
   align-items: center;
 }
 
 .QRcodePix {
-  width: 150px !important;
+  width: 200px !important;
 }
 
 a{
