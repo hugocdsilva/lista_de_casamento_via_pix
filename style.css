@@ -63,7 +63,7 @@ h3{
   font-size: 4em;
   font-style: italic;
   font-family: "Tangerine", cursive;
-  font-size: 45px;
+  font-size: 35px;
   font-style: normal;
 }
 
@@ -121,7 +121,7 @@ p{
 }
 
 .QRcodePix {
-  width: 160px !important;
+  width: 120px !important;
 }
 
 a{
