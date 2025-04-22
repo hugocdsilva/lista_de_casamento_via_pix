@@ -116,7 +116,6 @@ p{
 #lista-presentes img, #boas-vindas img{
   width:290px;
   border-radius:2%;
-  display: flex;
   justify-content: center; /* horizontal */
   align-items: center;
 }
