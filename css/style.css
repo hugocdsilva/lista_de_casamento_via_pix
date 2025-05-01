@@ -1,0 +1,278 @@
+/* Importando a fonte Tangerine */
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+body {
+  text-align: center;
+  font-family: cursive, sans-serif;
+  background-color: #ffffff;
+  color: #918989;
+  margin: 0;
+}
+
+.iuAcJM {
+  position: relative;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.grGor {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(33, 33, 33, 0.5);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.iiHstv {
+  min-width: 100%;
+}
+
+.grGor h1 {
+  font-size: 8em;
+  /* Aumentando o tamanho do título */
+}
+
+.grGor h2 {
+  color: #ffffff;
+  font-size: 72px;
+  /* Aumentando o tamanho do subtítulo */
+  font-family: "Shopping Font Script", cursive;
+  font-weight: bold;
+  line-height: 0.01em;
+}
+
+/* Cabeçalhos com fonte Tangerine */
+h1 {
+  color: #918989;
+  font-family: "Tangerine", cursive;
+  font-size: 500%;
+  /* Aumentando o tamanho do título principal */
+  font-style: normal;
+}
+
+h2 {
+  color: #918989;
+  font-family: "Tangerine", cursive;
+  font-size: 350%;
+  /* Aumentando o tamanho do subtítulo */
+  font-style: normal;
+}
+
+h3 {
+  font-size: 2em;
+  /* Ajustando tamanho do h3 */
+  font-style: italic;
+  font-family: "Tangerine", cursive;
+  font-size: 35px;
+  font-style: normal;
+}
+
+.titulo-cinza {
+  color: #918989;
+}
+
+section {
+  width: 75%;
+  /* Ajustando a largura para telas grandes */
+  margin: 0 auto;
+}
+
+section section {
+  width: 500%;
+}
+
+p {
+  font-size: 24px;
+  /* Aumentando o tamanho do texto do parágrafo */
+  line-height: 1.5;
+  font-family: 'Shopping Font Script', cursive;
+}
+
+.lista-presente1,
+.lista-presente2,
+.lista-presente3,
+.lista-presente4 {
+  border-radius: 5px;
+}
+
+.lista-presente1 {
+  width: 250px !important;
+}
+
+.lista-presente2 {
+  width: 300px !important;
+}
+
+.lista-presente3 {
+  width: 325px !important;
+}
+
+.lista-presente4 {
+  width: 275px !important;
+}
+
+#lista-presentes img,
+#boas-vindas img {
+  width: 80%;
+  /* Reduzindo o tamanho das imagens */
+  max-width: 350px;
+  /* Limite para o tamanho máximo das imagens */
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.QRcodePix {
+  width: 180px !important;
+  /* Ajustando o QR Code */
+}
+
+a {
+  text-decoration: none;
+  color: #ff914d;
+  font-weight: 700;
+}
+
+.principal {
+  height: 10px;
+  margin: 0 auto;
+}
+
+.principal a {
+  color: #fa6000;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.principal li {
+  display: inline-block;
+  line-height: 2.5;
+  margin: 0 2.5em;
+}
+
+.traco {
+  font-size: 15px !important;
+}
+
+button {
+  background-color: #918989;
+  border: 1px solid transparent;
+  padding: 2px 20px;
+  border-radius: 3px;
+}
+
+img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Ajustes de Responsividade */
+@media (max-width: 768px) {
+  section {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 3em;
+    /* Reduzindo o tamanho do título para telas pequenas */
+  }
+
+  h2 {
+    font-size: 2.5em;
+    /* Ajustando o subtítulo */
+  }
+
+  h3 {
+    font-size: 1.5em;
+    /* Ajustando o tamanho do h3 */
+  }
+
+  .lista-item {
+    width: 100%;
+  }
+
+  .QRcodePix {
+    width: 150px !important;
+    /* Ajustando o QR code */
+  }
+
+  p {
+    font-size: 18px;
+    /* Ajustando o tamanho do texto */
+  }
+
+  #lista-presentes img,
+  #boas-vindas img {
+    width: 90%;
+    /* Ajustando imagens para telas pequenas */
+  }
+
+  .lista-presente1,
+  .lista-presente2,
+  .lista-presente3,
+  .lista-presente4 {
+    width: 100%;
+    /* Ajustando a largura dos itens na lista */
+  }
+}
+
+#formulario-contato {
+  width: 80%;
+  max-width: 400px;
+  margin: 40px auto;
+  background-color: #fff8f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Tangerine', cursive;
+  font-size: 24px;
+}
+
+#formulario-contato h3 {
+  text-align: center;
+  color: #918989;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#formContato label {
+  display: block;
+  margin-top: 10px;
+  color: #555;
+  font-weight: bold;
+}
+
+#formContato input {
+  width: 80%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+#formContato button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  background-color: #918989;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#formContato button:hover {
+  background-color: #7e7e7e;
+}
